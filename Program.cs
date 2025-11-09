@@ -11,8 +11,10 @@ namespace SnakeAndLadder
             SinglePlayerUC1 useCase1 = new SinglePlayerUC1();
             useCase1.Execute();
 
-            Console.WriteLine("\n(Use Case 1 executed successfully)");
-            Console.ReadLine();
+            RollDiceUC2 useCase2 = new RollDiceUC2();
+            useCase2.Execute();
+
+
         }
     }
 }
