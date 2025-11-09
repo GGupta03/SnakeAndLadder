@@ -1,6 +1,5 @@
-﻿using System;
+﻿using SnakeAndLadder.UseCases;
 
-namespace SnakeAndLadder
 {
     class Program
     {
