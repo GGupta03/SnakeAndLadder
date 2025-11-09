@@ -1,6 +1,6 @@
 using System;
 
-namespace SnakeAndLadder
+namespace SnakeAndLadder.UseCases
 {
     public class DiceCountUC6
     {
