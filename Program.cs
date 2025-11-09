@@ -14,6 +14,8 @@ namespace SnakeAndLadder
             RollDiceUC2 useCase2 = new RollDiceUC2();
             useCase2.Execute();
 
+            PlayerOptionUC3 useCase3 = new PlayerOptionUC3();
+            useCase3.Execute();
 
         }
     }
