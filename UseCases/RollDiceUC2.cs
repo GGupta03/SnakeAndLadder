@@ -2,7 +2,6 @@ using System;
 
 namespace SnakeAndLadder
 {
-    // Use Case 2: Player rolls the die to get a number between 1 and 6
     public class RollDiceUC2
     {
         public void Execute()
@@ -11,7 +10,6 @@ namespace SnakeAndLadder
 
             Random random = new Random();
 
-            // Generate random number between 1 and 6
             int diceValue = random.Next(1, 7); 
 
             Console.WriteLine($"Player rolled the die and got: {diceValue}");

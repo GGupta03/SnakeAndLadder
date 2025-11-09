@@ -46,7 +46,7 @@ namespace SnakeAndLadder
             }
 
             Console.WriteLine("--------------------------------------------");
-            Console.WriteLine("🎯 Player reached the Winning Position 100!");
+            Console.WriteLine("Player reached the Winning Position 100!");
         }
     }
 }
