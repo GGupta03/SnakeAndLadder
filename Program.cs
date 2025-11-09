@@ -17,6 +17,10 @@ namespace SnakeAndLadder
             PlayerOptionUC3 useCase3 = new PlayerOptionUC3();
             useCase3.Execute();
 
+            WinningPositionUC4 useCase4 = new WinningPositionUC4();
+            useCase4.Execute();
+
+
         }
     }
 }
