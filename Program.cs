@@ -1,4 +1,4 @@
-﻿using System;
+﻿using SnakeAndLadder.UseCases;
 
 namespace SnakeAndLadder
 {
@@ -8,33 +8,26 @@ namespace SnakeAndLadder
         {
             Console.WriteLine("=== Welcome to Snake and Ladder Game ===\n");
 
-            // Use Case 1: Single Player Start
-            SinglePlayerUC1 useCase1 = new SinglePlayerUC1();
-            useCase1.Execute();
+            SinglePlayerUC1 uc1 = new SinglePlayerUC1();
+            uc1.Execute();
 
-            // Use Case 2: Roll Dice
-            RollDiceUC2 useCase2 = new RollDiceUC2();
-            useCase2.Execute();
+            RollDiceUC2 uc2 = new RollDiceUC2();
+            uc2.Execute();
 
-            // Use Case 3: Player checks for Option (No Play, Ladder, Snake)
-            CheckOptionUC3 useCase3 = new CheckOptionUC3();
-            useCase3.Execute();
+            PlayerOptionUC3 uc3 = new PlayerOptionUC3();
+            uc3.Execute();
 
-            // Use Case 4: Repeat till the Player reaches 100 (restart if below 0)
-            ReachWinningPositionUC4 useCase4 = new ReachWinningPositionUC4();
-            useCase4.Execute();
+            WinningPositionUC4 uc4 = new WinningPositionUC4();
+            uc4.Execute();
 
-            // Use Case 5: Ensure exact winning position 100
-            ExactWinningPositionUC5 useCase5 = new ExactWinningPositionUC5();
-            useCase5.Execute();
+            ExactWinningPositionUC5 uc5 = new ExactWinningPositionUC5();
+            uc5.Execute();
 
-            // Use Case 6: Report number of dice rolls and position after each roll
-            ReportDiceCountUC6 useCase6 = new ReportDiceCountUC6();
-            useCase6.Execute();
+            DiceCountUC6 uc6 = new DiceCountUC6();
+            uc6.Execute();
 
-            // Use Case 7: Two Player Game with Ladder Replay and Winner Report
-            TwoPlayerGameUC7 useCase7 = new TwoPlayerGameUC7();
-            useCase7.Execute();
+            TwoPlayerGameUC7 uc7 = new TwoPlayerGameUC7();
+            uc7.Execute();
 
             Console.WriteLine("\n=== Game Simulation Complete ===");
         }
