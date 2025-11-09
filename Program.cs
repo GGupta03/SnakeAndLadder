@@ -23,6 +23,8 @@ namespace SnakeAndLadder
             ExactWinningPositionUC5 useCase5 = new ExactWinningPositionUC5();
             useCase5.Execute();
 
+            DiceCountUC6 useCase6 = new DiceCountUC6();
+            useCase6.Execute();
 
 
         }
