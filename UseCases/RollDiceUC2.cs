@@ -1,6 +1,7 @@
 using System;
 
-namespace SnakeAndLadder
+namespace SnakeAndLadder.UseCases
+
 {
     // Use Case 2: Player rolls the die to get a number between 1 and 6
     public class RollDiceUC2
