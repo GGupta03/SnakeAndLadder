@@ -1,6 +1,7 @@
 using System;
 
-namespace SnakeAndLadder
+namespace SnakeAndLadder.UseCases
+
 {
     public class RollDiceUC2
     {

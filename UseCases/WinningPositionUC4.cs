@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace SnakeAndLadder
+namespace SnakeAndLadder.UseCases
 {
-    
+
     public class WinningPositionUC4
     {
         public void Execute()
