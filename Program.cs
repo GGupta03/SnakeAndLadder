@@ -20,6 +20,10 @@ namespace SnakeAndLadder
             WinningPositionUC4 useCase4 = new WinningPositionUC4();
             useCase4.Execute();
 
+            ExactWinningPositionUC5 useCase5 = new ExactWinningPositionUC5();
+            useCase5.Execute();
+
+
 
         }
     }
