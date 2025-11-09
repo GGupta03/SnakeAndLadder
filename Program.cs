@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace SnakeAndLadder
+namespace SnakeAndLadder.UseCases
+
 {
     class Program
     {
